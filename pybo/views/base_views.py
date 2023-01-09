@@ -6,9 +6,11 @@ from django.contrib import messages
 from django.db.models import Q, Count
 from ..models import Question, Answer, Comment
 from ..forms import QuestionForm, AnswerForm, CommentForm
+import logging
+logger = logging.getLogger('pybo')
 
 def index(request):
-    3/0
+    logger.info("INFO 레벨로 출력")
     """
     pybo 목록 출력
     """
