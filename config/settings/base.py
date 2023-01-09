@@ -143,7 +143,7 @@ LOGGING = {
     },
     'formatters' : {
         'django.server' : {
-            '()' : 'django.utils.log.ServerFormatters',
+            '()' : 'django.utils.log.ServerFormatter',
             'format' : '[{server_time}] {message}',
             'style' : '{',
         },
@@ -152,9 +152,9 @@ LOGGING = {
         },
     },
     'handlers' : {
-        'consol': {
+        'console': {
             'level' : 'INFO',
-            'filter' : ['require_debug_true'],
+            'filters' : ['require_debug_true'],
             'class' : 'logging.StreamHandler',
         },
         'django.server' : {
