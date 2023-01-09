@@ -8,6 +8,7 @@ from ..models import Question, Answer, Comment
 from ..forms import QuestionForm, AnswerForm, CommentForm
 
 def index(request):
+    3/0
     """
     pybo 목록 출력
     """
