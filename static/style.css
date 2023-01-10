@@ -2,3 +2,27 @@
 .comment {
     border-top: dotted 1px #ddd;
     font-size:0.7em;
+}
+
+.qa_title {
+    width: 40%;
+    text-align: center;
+    font-size: 30px;
+    margin: 30px 30% 70px 30%;
+    font-weight: bold;
+    border-bottom: 6px double #A4A5A5;
+    padding-bottom: 20px;
+}
+
+.bg-lightmd{background-color:#b8f3b8;}
+
+.border-bottommd{border-bottom:1px solid green;}
+
+.thead-darkmd th{color:black;background-color:#b8f3b8;border-color:#454d55;}
+
+.page-linkmd{position:relative;display:block;padding:.5rem .75rem;margin-left:-1px;line-height:1.25;color:black;background-color:#fff;border:1px solid #dee2e6;}
+
+.rightalign{text-align: right; }
+
+.badgemd{display:inline-block;padding:.25em .4em;font-size:90%;font-weight:650;color:blue;line-height:1;text-align:center;white-space:nowrap;vertical-align:baseline;border-radius:.25rem;transition:color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out}
+.badgemd2{font-size:90%;font-weight:490}
